@@ -1,0 +1,7 @@
+<p>posts works!</p>
+{{posts|json}}
+<div *ngFor="let val of posts" class="post">
+    <app-display [data]="val" (delete)="deletePostval(val)"></app-display>
+</div>
+
+<!-- <app-display (deleteOne)="deleteOnee($event)"></app-display>    {{count}} -->

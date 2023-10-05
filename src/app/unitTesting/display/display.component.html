@@ -1,0 +1,11 @@
+<p>display works!</p>
+<div *ngIf="data">
+    <a  class="first">{{data.id}}</a>
+    <!-- <a [routerLink]="['details', data.title]">{{data.title}}</a>
+    <a [routerLink]="['details', data.body]">{{data.body}}</a> -->
+     <button (click)="onDelete($event)">Delete</button>
+</div>
+
+<p> Hi Banner</p>
+
+<!-- <button (click)="deleteData()">Deleteone</button> -->

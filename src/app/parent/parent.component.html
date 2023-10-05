@@ -1,0 +1,81 @@
+<!-- 
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Name</th>
+        <th scope="col">User Name</th>
+        <th scope="col">Email Id</th>
+        <th scope="col" colspan="5">Address
+           
+        </th>
+            <th scope="col">Phone Number</th>
+        <th scope="col">Website Name</th>
+        <th scope="col">Company</th>
+      </tr>
+     
+    </thead>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Street</td>
+        <td>Suit</td>
+        <td>City</td>
+        <td>ZipCode</td>
+        <td colspan="2">GEO
+
+        </td>
+
+        
+    </tr>
+    <tbody>
+      <tr *ngFor="let val of getList">
+
+        <td>{{val.id}}</td>
+        <td>{{val.name}}</td>
+        <td>{{val.username}}</td>
+        <td>{{val.email}}</td>
+        <td >
+            {{val.address.street}}
+        </td>
+        <td >
+            {{val.address.suite}}
+        </td>
+        <td >
+            {{val.address.city}}
+        </td>
+        <td >
+            {{val.address.zipcode}}
+        </td>
+        <td >
+            {{val.address.geo.lat}}
+        </td>
+       
+        
+        
+       
+        <td>{{val.phone}}</td>
+        <td>{{val.website}}</td>
+        <td>{{val.company}}</td>
+      
+      </tr>
+
+    </tbody>
+  </table>-->
+
+<!-- 
+  <div>
+      <div>
+
+          {{data}}
+      </div>
+     <div> <button (click)="increament()">Click</button></div>
+      <app-child></app-child> 
+</div> -->
+
+
+<div>
+    <button (click)="getData()"> Click</button>
+</div>

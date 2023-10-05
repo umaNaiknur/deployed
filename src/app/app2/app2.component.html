@@ -1,0 +1,95 @@
+<div class="container">
+    <div class="row card1">
+        <div class="col-md-5">
+            <div class="card">
+                <div class="card-header">Uma</div>
+                <div class="card-body ">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-md-6 card-title align-content-center">About
+<hr>
+                            <div class="card-title">Lorem ipsum dolor sit amet.</div>
+                        </div>
+                        <div class="col-md-6 card-title">Details
+                            <hr>
+
+                            <div class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, quaerat.</div>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary">Click</button>
+                </div>
+                <div class="card-footer">
+                    Thank You
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+
+
+ngOnInit(): void {
+    this.promise.then(val=>{
+      console.log(val)
+    },(error)=>{
+      console.log(error)
+    })
+
+    this.myObs=this.myObservable.subscribe(val=>{
+      console.log(val)
+    },(error)=>{
+      console.log(error.message)
+    },()=>{
+      console.log('completed')
+    })
+  }
+ arr1=[1,2,3,4,5,6]
+  //promises
+   promise=new Promise((resolve,reject)=>{
+    console.log('Promise Started')
+    if(5>4){
+      resolve(this.arr1)
+      
+    }else{
+      reject('error')
+    }
+   })
+
+//Observable
+myObs:Subscription=new Subscription
+
+myObservable=new Observable((observer)=>{
+  console.log('Observable started')
+  if(5>4){
+    observer.next(this.arr1)
+    observer.next(this.arr1)
+  }else{
+observer.error(new Error('Failed'))
+  }
+})
+
+
+  ngOnDestroy(): void {
+  console.log('Destroyed')
+  this.myObs.unsubscribe()
+  }
+  
+}
+
+    } -->
